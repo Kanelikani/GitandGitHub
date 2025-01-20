@@ -41,6 +41,6 @@ Git:ä voidaan käyttää komentoriviltä, tai suoraan esimerkiksi Visual Studio
 **Miten Git ja GitHub toimivat keskenään?**
 Työhakemiston synkronoiminen GitHub:n:
   - Paikallisen työkansion kytkeminen GitHub repositorioon:
-  ´git remote add origin https://github.com/GitHubTunnus/GitHubRepositorio.git´
+    `git remote add origin https://github.com/GitHubTunnus/GitHubRepositorio.git`
   - Etärepositorio kytköksen tarkistaminen: git remote -v
   - Paikallisen työkansion tietojen puskeminen GitHub:n: git push -u origin master
