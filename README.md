@@ -35,6 +35,6 @@ Git:ä voidaan käyttää komentoriviltä, tai suoraan esimerkiksi Visual Studio
   - Git commit:n listaaminen: git log tai git log --oneline
   - Git tilan tarkastminen: git status
 
-![alt text](buny.jpg)
+
 
 
