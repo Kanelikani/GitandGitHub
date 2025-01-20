@@ -39,8 +39,25 @@ Git:ä voidaan käyttää komentoriviltä, tai suoraan esimerkiksi Visual Studio
 ![alt text](buny.jpg)
 
 **Miten Git ja GitHub toimivat keskenään?**
-Työhakemiston synkronoiminen GitHub:n:
+*Työhakemiston synkronoiminen GitHub:n:*
   - Paikallisen työkansion kytkeminen GitHub repositorioon:
     `git remote add origin https://github.com/GitHubTunnus/GitHubRepositorio.git`
-  - Etärepositorio kytköksen tarkistaminen: git remote -v
-  - Paikallisen työkansion tietojen puskeminen GitHub:n: git push -u origin master
+  - Etärepositorio kytköksen tarkistaminen: `git remote -v`
+  - Paikallisen työkansion tietojen puskeminen GitHub:n: `git push -u origin master`
+
+*GitHub:a olevien tietojen synkronoiminen paikalliseen työkansioon:*
+
+  - GitHub repositorion ja paikallisen työkansion tilenteen erojen päivittäminen: `git fetch`
+  - Tietojen lataaminen GitHub repositoriosta paikalliseen työkansioon: `git pull`
+
+*GitHub fork:*
+  - Ns. Fork on GitHub repositorio joka syntynyt fork toiminnon takia kopiona jonkun toisen GitHub repositorista. Fork sisältää kaikki samat tiedot kuin alkuperäinen repositorio. Fork:n     omistaa kopion luonut henkilö joten tietojen lisääminen Fork repositorioon on mahdollista.
+
+*Git fork:n liittyviä Git komentoja*
+
+  - Upstream remoten lisääminen paikalliseen Git työhakemistoon:
+  `git remote add upstream <git://github.com/GitHubTunnus>/GitHubRepositorio.git>`
+  - Upstream remoten tietojen synkronoiminen Giot työhakemistoon: `git fetch upstream`
+
+
+    
