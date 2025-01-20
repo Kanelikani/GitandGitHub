@@ -74,6 +74,7 @@ Git haaroihin liittyvä työskentely:
   - Haaran poistaminen: `git branch -d uusibranch`
 
 
-##Linkkejä##
+##Linkkejä
+
 [Git](https://git-scm.com/)
-[Github]((https://github.com/)
+[Github](https://github.com/)
