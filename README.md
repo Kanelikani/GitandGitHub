@@ -1,7 +1,7 @@
 # Git ja GitHub
-![alt text](gitlogo.png)
+![alt text](git.png)
 
-![alt text](githublogo.png)
+![alt text](github.png)
 
 
 **Mitä on versiohallinta?**
