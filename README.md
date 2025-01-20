@@ -72,3 +72,8 @@ Git haaroihin liittyvä työskentely:
   - Uuden haaran lisääminen: `git branch haaran_nimi tai git checkout haaran_nimi`
   - Haaran tietojen yhdistäminen master päähaaraan: `git merge haaran_nimi`
   - Haaran poistaminen: `git branch -d uusibranch`
+
+
+##Linkkejä##
+[Git](https://git-scm.com/)
+[Github]((https://github.com/)
