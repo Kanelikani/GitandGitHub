@@ -36,5 +36,5 @@ Git:ä voidaan käyttää komentoriviltä, tai suoraan esimerkiksi Visual Studio
   - Git tilan tarkastminen: git status
 
 
-
+![alt text](buny.jpg)
 
