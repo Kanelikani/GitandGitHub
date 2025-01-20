@@ -58,6 +58,13 @@ Git:ä voidaan käyttää komentoriviltä, tai suoraan esimerkiksi Visual Studio
   - Upstream remoten lisääminen paikalliseen Git työhakemistoon:
   `git remote add upstream <git://github.com/GitHubTunnus>/GitHubRepositorio.git>`
   - Upstream remoten tietojen synkronoiminen Giot työhakemistoon: `git fetch upstream`
-
-
     
+**Haarat eli branch:t**
+
+Git haara (branch) on toiminallisuus joka mahdollistaa haarassa olevien tietojen muuttamisen ilman että muutoksilla on vaikutusta työkansion muihin tietoihin. Haaraa voitaisiin käyttää sovelluksen erilaisten toiminnallisuuksien kehittämiseen ilman että kehitystyöllä on vaikutusta sovelluksen muun lähdekoodin toimintaan. Haarassa olevat tiedot yhdistetään lopulta sovelluksen päähaaran (master tai main) sisältämään lähdekoodiin.
+
+Git haaroihin liittyvä työskentely:
+  - Git haarojen listaaminen: `git branch`
+  - Uuden haaran lisääminen: `git branch haaran_nimi tai git checkout haaran_nimi`
+  - Haaran tietojen yhdistäminen master päähaaraan: `git merge haaran_nimi`
+  - Haaran poistaminen: `git branch -d uusibranch`
