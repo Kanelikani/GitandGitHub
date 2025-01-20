@@ -14,7 +14,7 @@ Git on ilmainen vapaan lähdekoodin ohjelma, jota käytetään versiohallintaan.
 **Mikä on GitHub?**
 GitHub on vuonna 2008 avattu verkkosivusto, joka tarjoaa paikan Git-versionhallintaa käyttäville ohjelmistokehitysprojekteille.
 
-**Miten näitä käytetään?**
+**Miten Git:ä käytetään?**
 Git:ä voidaan käyttää komentoriviltä, tai suoraan esimerkiksi Visual Studio Coden kautta. 
 
 *Git järjestelmänä koostuu kolmesta osasta*
@@ -38,3 +38,9 @@ Git:ä voidaan käyttää komentoriviltä, tai suoraan esimerkiksi Visual Studio
 
 ![alt text](buny.jpg)
 
+**Miten Git ja GitHub toimivat keskenään?**
+Työhakemiston synkronoiminen GitHub:n:
+  - Paikallisen työkansion kytkeminen GitHub repositorioon:
+  ´git remote add origin https://github.com/GitHubTunnus/GitHubRepositorio.git´
+  - Etärepositorio kytköksen tarkistaminen: git remote -v
+  - Paikallisen työkansion tietojen puskeminen GitHub:n: git push -u origin master
