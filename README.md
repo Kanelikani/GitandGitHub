@@ -1,6 +1,6 @@
 # Git ja GitHub
-![alt text](git logo.png)
-![alt text](github logo.png)
+![kuva](git logo.png)
+![kuva](github logo.png)
 
 **Mitä on versiohallinta?**
 Versiohallinta on tekniikka, jolla pidetään kirjaa tiedostoihin tehdyistä muutoksista ja niistä säilötään vanhemmat versiot.
